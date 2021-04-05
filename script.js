@@ -14,12 +14,10 @@ function getDataMahasiswa(url, success, error){
     xhr.open("GET", url);
     xhr.send();
 
-    // Memanggil otomatis
-    // load_ajax('data.json', success, error);
-    getDataMahasiswa("data.json", results => {
-        console.log(results)
-    }, () => {
-
-    });
-
 }
+
+getDataMahasiswa('data.json', results => {
+    console.log(results)
+}, () => {
+
+});
