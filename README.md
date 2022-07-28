@@ -1,2 +1,2 @@
-# fnd-11-ajax-js-jquery
+# AJAX (Asynchronous JavaScript And XML)
 Source : Sekolah Koding
